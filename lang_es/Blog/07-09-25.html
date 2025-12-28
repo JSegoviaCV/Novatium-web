@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+
+<!-- Mirrored from propuesta-novatium.web.app/lang_es/Blog/07-09-25.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Nov 2025 15:47:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Tokens en IA: Cómo se Mide el Consumo y Costo de la Inteligencia Artificial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <meta name="description"
+        content="Descubrí qué es un token en la IA generativa y cómo impacta en los costos operativos de tu empresa. Novatium te explica cómo optimizar el consumo de tokens en modelos como GPT, Claude o Gemini." />
+
+    <meta name="robots" content="index, follow" />
+    <meta property="og:url" content="07-09-25.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cómo la Inteligencia Artificial 'consume tokens' y cómo optimizar el costo" />
+    <meta property="og:description"
+        content="Tokens de entrada vs. salida: entendé la unidad clave del costo en modelos de IA como GPT, Claude y Gemini. Tips para usar IA de forma eficiente y económica." />
+    <meta property="og:image"
+        content="../../img/Novatium-Img/img-es/blogs/07-09-25/ia.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="../../img/Logo/favicon.svg">
+
+</head>
+
+<body class="default-device bodyclass">
+    <div id="top"></div>
+    <div class="navbar-closer hidden"></div>
+    <div id="top"></div>
+    <div class="navbar-closer hidden"></div>
+    <nav class="navbar navbar-expand-xl">
+        <div class="nav-wrapper d-flex justify-content-between">
+            <a href="../../index.html" aria-label="LogoNovatium">
+                <img class="navbar-brand" src="../../img/Logo/LogoNovatium.svg" alt="LogoNovatium">
+            </a>
+            <div class="mobile-top-wrapper">
+                <ul class="navbar-list level-0-mobile">
+                </ul>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarLevel0Collapse" aria-controls="navbarLevel0Collapse" aria-expanded=false
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <span class="navbar-toggler-bar"></span>
+                        <span class="navbar-toggler-bar"></span>
+                        <span class="navbar-toggler-bar"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Comienzo del Menú -->
+        <div class="collapse navbar-collapse" id="navbarLevel0Collapse">
+            <div class="navbar-left">
+                <ul class="navbar-list level-0">
+                    <li class="navbar-list-item">
+                        <a href="../../index.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'Inicio')">
+                            Inicio </a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="../aboutus.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'Nosotros')">
+                            Nosotros </a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="##" class="navbar-link has-children collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLeft1" aria-controls="collapseLeft1" role=button
+                            aria-expanded=false onclick="EMEAL.EVENTS.trackNavbar(0,'Services')">
+                            Servicios</a>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="collapse" id="collapseLeft1">
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <ul class="navbar-list level-1">
+                                                    <li class="navbar-list-item">
+                                                        <a href="../bpo.html" class="navbar-link has-children collapsed"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseSubLeft0"
+                                                            aria-controls="collapseSubLeft0" role=button
+                                                            aria-expanded=false
+                                                            onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')">
+                                                            Business Process Outsourcing (BPO) </a>
+                                                        <ul class="navbar-list level-2 collapse" id="collapseSubLeft0">
+                                                            <li class="navbar-list-item">
+                                                                <a href="../it-Infrastructure.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Tecnologías
+                                                                    de la Información (TI)</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../finance.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Finanzas</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../contact-center.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Contact
+                                                                    Center</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../supply-chain.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Supply
+                                                                    Chain</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../human-resources.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'RH')">Recursos
+                                                                    Humanos</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <ul class="navbar-list level-1">
+                                                    <li class="navbar-list-item">
+                                                        <a href="../digital-transformation.html"
+                                                            class="navbar-link has-children collapsed"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseSubLeft1"
+                                                            aria-controls="collapseSubLeft1" role=button
+                                                            aria-expanded=false
+                                                            onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')">
+                                                            Transformación Digital (TD) </a>
+                                                        <ul class="navbar-list level-2 collapse" id="collapseSubLeft1">
+                                                            <li class="navbar-list-item">
+                                                                <a href="../ia-bot.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'InteligenciaArtificial')">
+                                                                    IA-BOT</a>
+                                                                <div class=" featured-col">
+                                                                </div>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../workflow-automation.html"
+                                                                    class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">
+                                                                    Automatización de Flujos de Trabajo</a>
+                                                                <div class=" featured-col">
+                                                                </div>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../clm.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">
+                                                                    Contract Life Cycle Management</a>
+                                                                <div class=" featured-col">
+                                                                </div>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="../compliance.html" class="navbar-link "
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Compliance')">
+                                                                    Compliance</a>
+                                                                <div class=" featured-col">
+                                                                </div>
+
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="../Industries.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'Industrias')">
+                            Industrias </a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="../talents.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'Industrias')">
+                            Talento</a>
+                    </li>
+                     <li class="navbar-list-item">
+                        <a href="../success-stories.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'Éxitos')"> Éxitos</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="../blog.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'blogs')">
+                            Blog</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="../contact.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'Contacto')">
+                            Contacto </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <ul class="navbar-list level-0">
+                    <li class="navbar-list-item footer-link l-header-ed23__country">
+                        <a href="javascript:void(0)"
+                            class="navbar-link has-icon text-hidden has-children is-search collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#collapseRight0" role=button aria-expanded=false
+                            aria-controls="collapseRight0">
+                            <img class=" navbar-link-icon" src="../../img/icons/search.svg" alt="Search"
+                                aria-hidden="true"><span class="navbar-link-text">&nbsp;Search</span>
+                        </a>
+                        <div class="container-fluid is-search">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-5">
+                                    <div class="collapse" id="collapseRight0">
+                                        <div class="search-wrapper py-5">
+                                            <form class="search search-input-js-component" action="../../lang_es/Search/Search.html">
+                                                <div class="input-group">
+                                                    <input type="search" class="form-control"
+                                                        placeholder="&#191;Qu&#233; est&#225;s buscando?"
+                                                        aria-label="aria-label" name="keyword"
+                                                        data-searchinputitemid="{71595D03-76E2-4784-A5CD-376B9ED0A80F}"
+                                                        data-autocomplete="1">
+                                                    <div class="input-group-appendx">
+                                                        <button type="submit" class="btn btn-secondary ">
+                                                            Search
+                                                            <div class="cta-search">
+                                                                <div class="icon">
+                                                                    <svg aria-hidden="true"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 16 16">
+                                                                        <path
+                                                                            d="M11.435 10.063h-.723l-.256-.247a5.92 5.92 0 001.437-3.87 5.946 5.946 0 10-5.947 5.947 5.92 5.92 0 003.87-1.437l.247.256v.723L14.637 16 16 14.637l-4.565-4.574zm-5.489 0A4.111 4.111 0 011.83 5.946 4.111 4.111 0 015.946 1.83a4.111 4.111 0 014.117 4.116 4.111 4.111 0 01-4.117 4.117z"
+                                                                            fill="#141414" fill-rule="evenodd"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="tt-menu">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-list-item1 l-header-ed23__country ">
+                        <a href="../../lang_en/Blog/07-09-25.html" aria-label="LogoNovatium">
+                            <img class="navbar-brand1" src="../../img/icons/Global-English%20.svg" alt="LogoNovatium">
+                        </a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="../contactus.html" class="navbar-link btn btn-primary" target=""
+                            onclick="EMEAL.EVENTS.trackNavbar(0,'contact_us')">Contactanos</a>
+                    </li>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin del Menú -->
+
+    <div class="modal country-selector-modal fade" id="countrySelectorModal" tabindex="0"
+        aria-labelledby="countrySelectorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content country-selector-modal-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="new_countrySelect-container">
+                                <div class="new_countrySelect-header">
+                                    <span id="display_title_CountrySelector"></span>
+                                    <span class="mob-d-none" id="closeHeader_CountrySelector" data-bs-toggle="modal"
+                                        data-bs-target="#countrySelectorModal" data-bs-dismiss="modal"><i
+                                            class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="new_countrySelect-CurrentLabel" id="new_countrySelect-CurrentLabel">
+                                </div>
+                                <div class="new_countrySelect-inputArea">
+                                    <label for="inputCountry" id="display_label_CountrySelector"></label>
+                                    <div class="new_countrySelector_Inputcntr">
+                                        <input type="text" id="inputCountry" onkeyup="countryFilterFunc(this.value)"
+                                            autocomplete="off" />
+                                        <span id="country_search" class="country_search"><i
+                                                class="fa-solid fa-magnifying-glass"></i></span>
+                                        <span id="country_search_close" class="country_search_close"
+                                            onclick="resetCountryList()"><i class="fa-solid fa-circle-xmark"></i></span>
+                                    </div>
+
+                                </div>
+                                <div class="new_countrySelect-suggestArea" id="new_countrySelectSuggestion"></div>
+                                <div class="new_countrySelect-notAvailable" id="new_countrySelectnotAvailable">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="cs-targetHostname" value="novatium.com.ar" />
+        <input type="hidden" id="cs-virtualFolder" value="/" />
+        <input type="hidden" id="cs-language" value="es-ES" />
+    </div>
+    <div class="collapse is-search" id="collapseSearch">
+        <div class="search-wrapper py-5">
+            <form class="search search-input-js-component" action="https://propuesta-novatium.web.app/search">
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="&#191;Qu&#233; est&#225;s buscando?"
+                        aria-label="aria-label" name="keyword"
+                        data-searchInputItemId="{71595D03-76E2-4784-A5CD-376B9ED0A80F}" data-autocomplete="1">
+                    <div class="input-group-appendx">
+                        <button type="submit" class="btn btn-secondary ">
+                            Search
+                            <div class="cta-search">
+                                <div class="icon">
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.435 10.063h-.723l-.256-.247a5.92 5.92 0 001.437-3.87 5.946 5.946 0 10-5.947 5.947 5.92 5.92 0 003.87-1.437l.247.256v.723L14.637 16 16 14.637l-4.565-4.574zm-5.489 0A4.111 4.111 0 011.83 5.946 4.111 4.111 0 015.946 1.83a4.111 4.111 0 014.117 4.116 4.111 4.111 0 01-4.117 4.117z"
+                                            fill="#141414" fill-rule="evenodd" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </button>
+                    </div>
+
+                </div>
+                <div class="tt-menu">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    </nav>
+    <div class="jumbotron-fluid is-article bg-primary ">
+        <div class="hero-titles">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="hero-content"><br>
+                            <p class="tag">Domingo, 7 de septiembre de 2025</p>
+                            <h1 class=""> Cómo la Inteligencia Artificial “consume tokens”</h1>
+                            <p class="is-x-large"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-image" style="background-image: url(../../img/Novatium-Img/img-es/blogs/07-09-25/ia.webp) ">
+        </div>
+    </div>
+
+
+    <section id="main" class="article-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 ">
+                    <article id="articleTask">
+                        <div class="wysiwyg-content">
+                            <p>
+                                En el mundo de la inteligencia artificial generativa, como la que usamos en Novatium
+                                para automatizar procesos o asistir a usuarios, una palabra clave que aparece
+                                constantemente es: <b>token</b>. ¿Pero qué es un token? ¿Y por qué deberías prestar
+                                atención a cómo se consumen?
+                            <p>
+                                <b>¿Qué es un token?</b>
+                            </p>
+                            <p>
+                                Un <b>token</b> es una unidad de texto que los modelos de lenguaje utilizan para
+                                procesar la
+                                información. No es exactamente una palabra: puede ser una sílaba, una palabra entera, o
+                                incluso un símbolo. Por ejemplo
+                            </p>
+                            <ul>
+                                <li>La palabra “inteligencia” se traduce en <b>2 tokens</b>.</li>
+                                <li>“Hola” es 1 <b>token</b>.</li>
+                                <li>Una frase como "¿Cómo estás?" puede ocupar entre <b>4 y 6 tokens</b>, dependiendo
+                                    del modelo.</li>
+                            </ul>
+                            <p>
+                                Cada interacción con un modelo de IA (como ChatGPT, Claude o Gemini) implica el consumo
+                                de tokens tanto en la <b>entrada</b> (lo que le pedís) como en la <b>salida</b> (la
+                                respuesta que te
+                                da).
+                            </p>
+                            <hr style="color: #0070c0;">
+                            <p>
+                                <b> ¿Por qué los tokens importan a nivel de costos?</b>.
+                            </p>
+
+                            <p>
+                                Los proveedores de modelos de IA (como OpenAI, Anthropic, Mistral, Google, etc.) cobran
+                                por cantidad de tokens procesados. Así, el precio que paga una empresa por usar
+                                inteligencia artificial no depende del número de preguntas que se hagan, sino de cuánta
+                                información se procesa en total.
+                            </p>
+
+                            <p>
+                                Por ejemplo:
+                            </p>
+                            <table>
+
+                                <thead>
+                                    <tr>
+                                        <th>Modelo</th>
+                                        <th>Precio estimado por 1.000 tokens</th>
+                                        <th>Qué representa</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>GPT-4o</td>
+                                        <td>~0,005 USD (entrada)</td>
+                                        <td>750 palabras aprox.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Claude 3 Opus</td>
+                                        <td>~0,015 USD (entrada)</td>
+                                        <td>Muy largo contexto</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gemini 1.5 Pro</td>
+                                        <td>~0,010 USD (entrada)</td>
+                                        <td>Alta capacidad de compresión</td>
+                                    </tr>
+                                </tbody>
+                            </table><br>
+
+
+
+                            <ul>
+                                <p>
+                                    Esto significa que una consulta muy extensa, o una respuesta larga, puede costar 10
+                                    veces más que una simple.
+                                </p>
+                            </ul>
+                            <hr style="color: #0070c0;">
+                            <p>
+                                <b> ¿Cuánto cuesta un uso típico?</b>
+                            </p>
+                            <p>
+                                Supongamos que una empresa utiliza un chatbot que responde preguntas frecuentes. Una
+                                interacción típica puede consumir entre <b>100 y 500 tokens,</b> dependiendo del nivel
+                                de
+                                detalle de la respuesta.
+                            </p>
+
+                            <ul>
+                                <li>1.000 consultas simples por día → ~100.000 tokens</li>
+                                <li>Costo diario (modelo económico): <b>0,50 USD</b></li>
+                                <li>Costo mensual: <b>15 USD</b></li>
+
+
+                            </ul>
+                            <p>
+                                Pero si esas respuestas incluyen múltiples documentos, tablas, o personalización
+                                avanzada, el consumo puede multiplicarse. En soluciones más complejas, como asistentes
+                                internos o análisis de textos legales, puede superar los <b>2 millones de tokens al mes,
+                                    y
+                                    eso sí tiene impacto presupuestario</b>.
+                            </p>
+                            <hr style="color: #0070c0;">
+                            <p>
+                                <b> Tips para optimizar el uso de tokens</b>
+                            </p>
+                            <ul>
+                                <li><b>Prompts concisos:</b> cuanto más claro y breve el pedido, menos tokens se
+                                    consumen</li>
+                                <li><b>Controlar el tamaño del contexto:</b> evitar cargar siempre todos los datos
+                                    disponibles si no son necesarios.</li>
+                                <li><b>Elegir el modelo adecuado:</b> modelos más potentes (como GPT-4 o Claude Opus)
+                                    consumen más, pero no siempre son necesarios.</li>
+                                <li><b>Resumen de respuestas:</b> configurar para que los resultados sean sintéticos,
+                                    especialmente en automatizaciones.</li>
+
+                            </ul>
+
+
+                            <p>
+                                <!-- icon666.com - MILLIONS OF FREE VECTOR ICONS --><svg id="paper_x5F_plane"
+                                    enable-background="new 0 0 195 195" viewBox="0 0 195 195"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink svg"
+                                    width="35" height="35">
+                                    <linearGradient id="icon_1_" gradientUnits="userSpaceOnUse" x1="97.5" x2="97.5"
+                                        y1="35.992" y2="159.008">
+                                        <stop offset="0" stop-color="#09c4f9" />
+                                        <stop offset="1" stop-color="#0163ec" />
+                                    </linearGradient>
+                                    <path id="icon_33_"
+                                        d="m171 36.1c-.9.3-1.7.7-2.6 1-39.8 16.4-79.7 32.8-119.5 49.2-8.6 3.5-17.2 7.1-25.7 10.8-.7.3-1.5 1.1-1.7 1.9-.1.4.9 1.2 1.6 1.6.8.5 1.7.8 2.6 1.1 14.3 5.8 28.5 11.6 42.8 17.2.2.1.4.2.5.2l3.4 36.9c0 .5.2 1 .4 1.5.7 1.5 2.7 2 4.1.9 8.1-6.7 16.1-13.4 24-20.3 1.8-1.6 3.2-1.6 5.3-.5 11.2 6.1 22.5 12 33.8 18 6.7 3.5 6.7 3.5 8.4-3.9 6.8-30.4 13.5-60.8 20.3-91.3 1.6-7.4 3.3-14.8 4.9-22.2 0-1.7-.9-2.6-2.6-2.1zm-26.5 28.9c-18 19.8-36 39.7-54 59.5-1 1.1-1.9 2.4-2.6 3.7-3.4 6.5-6.8 13.1-10.2 19.6l-2.6-28.2c.2-.5.6-.9.9-1.2 24.6-20.3 49.4-40.5 74.1-60.8.2-.2.4-.3.6-.4.1.1.3.2.4.3-2.1 2.5-4.3 5-6.6 7.5z"
+                                        fill="url(#icon_1_)" />
+                                </svg> <a class="link" href="../contact.html#contact">Escribinos. En
+                                    Novatium, el soporte es solo el comienzo.</a>
+
+
+                            </p>
+
+                        </div>
+
+                    </article>
+                </div>
+                <div class="col-lg-5 mt-5">
+                    <aside class="article-sidebar" id="articleSidebar">
+                        <div class="article-author-info">
+                            <div class="author-image has-bg-pattern">
+                                <img src="../../img/Novatium-Img/img-es/blogs/author/MOrlando.webp" alt="" />
+                            </div>
+                            <div class="author-info ">
+                                <h6>María Emilia Orlando</h6>
+                                <p class="is-small">Business Development Manager <br> <B>NOVATIUM</B></p>
+                                <a href="https://www.linkedin.com/in/mariaemiliaorlando/" class="cta text ">Linkedin
+                                    Profile</a>
+                            </div>
+                        </div>
+
+
+                        <div id="stickySidebarContent">
+                            <div class="grouped-social-icons">
+                                <div class="social-icons ">
+                                    <p>Nuestras redes:</p>
+                                    <a href="mailto:contacto@novatium.com.ar" class="social-icon icon-email"
+                                        target="_blank" aria-label="email"></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100063789106166"
+                                        class="social-icon icon-tiktok" target="_blank" aria-label="Facebook"></a>
+                                    <a href="https://www.linkedin.com/company/novatium-argentina-arl-s-a-/"
+                                        class="social-icon icon-youtube" target="_blank" aria-label="youtube"></a>
+                                    <a href="https://wa.me/+5491132674980" class="social-icon icon-whatsapp"
+                                        target="_blank" aria-label="whatsapp">
+                                    </a>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section><br>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-xl-9">
+                    <div class="row mb-lg-4">
+                        <div class="col d-lg-flex align-items-xl-start">
+                            <img class="footer-logo mr-lg-4" src="../../img/Logo/LogoNovatium.svg"
+                                alt="Novatium logo" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="grouped-social-icons">
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/company/novatium-argentina-arl-s-a-/"
+                                        class="social-icon icon-linkedin" target="_blank" aria-label="linkedin"></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100063789106166"
+                                        class="social-icon icon-facebook" target="_blank" aria-label="facebook"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="footer-list column-list mb-3 l-header-ed23__country hover">
+                        <li class="footer-list-item">
+                            <p class="footer-link">NAVEGACIÓN</p>
+                        </li>
+                    </ul>
+                    <ul class="footer-list column-list mb-3 l-header-ed23__country hover">
+                        <li class="footer-list-item">
+                            <a href="../aboutus.html" class="footer-link"> Nosotros </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="../services.html" class="footer-link"> Servicios </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="../Industries.html" class="footer-link"> Industrias </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="../talents.html" class="footer-link"> Talento </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="../success-stories.html" class="footer-link">Éxitos</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="../blog.html" class="footer-link"> Blog </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="../contact.html" class="footer-link"> Contacto </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="footer-list column-list mb-3">
+                        <li class="footer-list-item">
+                            <p class="footer-link">UBICACIONES</p>
+                        </li>
+                    </ul>
+                    <ul class="footer-list column-list mb-3">
+                        <li class="footer-list-item">
+                            <p class="footer-link">Argentina</p>
+                        </li>
+                        <li class="footer-list-item">
+                            <p class="footer-link">España</p>
+                            <br><br><br>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-9">
+                  <p class="footer-text">© 2005 - <span id="current-year"></span> NOVATIUM. All Rights Reserved.</p>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-xl-9">
+                    <ul class="footer-list mb-3 l-header-ed23__country hover">
+                        <li class="footer-list-item">
+                            <a href="../privacy.html" class="footer-link"> Política de Privacidad</a>
+                        </li>
+                        <li class="footer-list-item l-header-ed23__country hover">
+                            <a href="../cookies.html" class="footer-link"> Política de Cookies </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 text-right l-header-ed23__country hover">
+                    <a href="#top" class="footer-link"> Back To Top <img src="../../img/icons/arrow-up-white.svg"
+                            aria-hidden="true" class="icon" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer
+        src="../../../js-eu1.hs-scripts.com/144027721.js"></script>
+    <!-- End of HubSpot Embed Code -->
+</body>
+
+
+<!-- Mirrored from propuesta-novatium.web.app/lang_es/Blog/07-09-25.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Nov 2025 15:47:10 GMT -->
+</html>

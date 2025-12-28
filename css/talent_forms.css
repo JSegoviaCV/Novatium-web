@@ -1,0 +1,84 @@
+
+.container {
+	max-width:550px;
+	width:200%;
+	margin:0 auto;
+	position:relative;
+  display: flex;
+  color: #191466;
+}
+
+
+body {
+  background:#ffff;
+  font-family: 'Roboto-Regular';
+}
+  
+  ::placeholder{
+  color: white;
+  padding: 66px;
+  }
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+label {
+  display:block;
+  margin-top:20px;
+  letter-spacing:1px;
+}
+.formulario {
+
+  display:block;
+  margin:0 auto;
+  width:510px;
+  color: #666666;
+  font-family:Roboto-Regular;
+}
+form {
+  margin:0 auto;
+  width:400px;
+}
+
+
+input {
+  width:100%;
+  height:55px;
+  background: #ffffff;
+  border:2px solid #3775C4;
+  padding:10px;
+  margin-top:5px;
+  font-size:20px;
+  color:#050505;
+  border-radius: 15px;
+}
+
+#submit {
+  width:54px;
+  height:36px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

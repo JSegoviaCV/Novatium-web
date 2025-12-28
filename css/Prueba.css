@@ -1,0 +1,289 @@
+
+
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my_container {
+  
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  }
+
+
+h3 {
+  margin-top: 1.5rem;
+  color: #1c238a;
+}
+
+@media (max-width: 500px) {
+
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+
+
+
+
+  
+  
+
+
+
+/* -- Contenedor Principal -- */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #18163c; 
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* Clase para ocultar */
+.hidden {
+    opacity: 0; 
+    visibility: hidden;
+}
+
+/* -- Contenido Interno con padding para Móviles -- */
+.preloader-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    
+    /* Ajustes para Móvil: Ocupa todo el ancho con margen de 20px a los lados */
+    width: 100%;
+    padding: 0 20px; /* Relleno de 0px arriba/abajo y 20px izquierda/derecha */
+    box-sizing: border-box; 
+}
+
+/* Logo Estático */
+.preloader-logo-static {
+    width: 250px; 
+    height: auto;
+    margin-bottom: 25px; 
+}
+
+/* Mensaje de Bienvenida con Animación de Color */
+.welcome-message {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffffff; 
+    animation: color-fade 2.5s ease-in-out infinite alternate; 
+    
+    /* Asegura que el texto largo se ajuste dentro del padding */
+    text-align: center; 
+}
+
+/* Keyframes para la Animación de Cambio de Color */
+@keyframes color-fade {
+    0% { color: #ffffff; }
+    100% { color: #3775c4; } 
+
+
+
+}
+
+
+/* 1. Contenedor principal (imagen + bloque de texto) */
+.author-info {
+    display: flex; 
+    /* Alinea la imagen y el bloque de texto a la parte INFERIOR */
+    align-items: flex-end; 
+    
+    /* Mueve todo el bloque a la DERECHA */
+    margin-left: auto; 
+    margin-right: 0; 
+
+    /* Espaciado ajustado para pegarse al fondo de la tarjeta */
+    margin-top: 5px;   
+    margin-bottom: 0; 
+    padding-top: 5px; 
+    
+}
+
+/* 2. Estilo del DIV que contiene el Nombre y el Puesto (el segundo hijo de .author-info) */
+.author-info > div:nth-child(2) {
+    line-height: 1.2;
+}
+
+
+/* 3. Estilo del Nombre (en blanco) */
+.author-name {
+    display: block; 
+    font-size: 14px;
+    font-weight: bold;
+    color: white; 
+}
+
+/* 4. Estilo del Puesto de trabajo (en blanco y más pequeño) */
+.author-info > div:nth-child(2) > span:not(.author-name) {
+    display: block; 
+    font-size: 11px; 
+    color: white; 
+    opacity: 0.8; 
+}
+
+/* 5. Estilo de la imagen */
+.author-image {
+    width: 45px; 
+    height: 45px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 8px; /* Espacio entre la imagen y el bloque de texto */
+}
+
+/* NOTA: Asegúrate de que .card-body tenga: 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: [Valor bajo, ej. 5px];
+}
+para que la alineación a la derecha funcione correctamente. */
+
+/* ========================================================= */
+/* ESTILOS PARA VERSIÓN MÓVIL (MAX-WIDTH: 767PX) */
+/* ========================================================= */
+@media (max-width: 767px) {
+    
+    /* 1. Anular la alineación a la derecha del bloque de autor */
+    .author-info {
+        /* ¡CLAVE! Anula el margin-left: auto que lo mueve a la derecha en escritorio */
+        margin-left: 0 !important; /* Usamos !important si es necesario para sobrescribir */
+        margin-right: auto; /* Opcional: Esto lo empuja explícitamente a la izquierda */
+
+        /* Revertir flex-direction si se usó para invertir el orden en escritorio (Opción 2) */
+        flex-direction: row; /* Esto asegura que la imagen esté a la izquierda del texto */
+        
+        /* Aseguramos que se apile al principio del contenedor */
+        justify-content: flex-start;
+        
+        /* ... el resto de ajustes de tamaño y espaciado móvil ... */
+        padding-top: 5px; 
+        margin-top: 5px;
+    }
+
+    /* 2. Ajuste de la imagen del autor */
+    .author-image {
+        width: 30px; 
+        height: 30px;
+        margin-right: 6px; /* Espacio entre imagen y texto */
+        margin-left: 0; /* Aseguramos que no tenga margen izquierdo si se usó flex-direction: row-reverse; en escritorio */
+    }
+
+    /* ... el resto de estilos de fuente y espaciado para móvil se mantienen ... */
+    .author-name {
+        font-size: 13px; 
+    }
+    
+    .author-info > div:nth-child(2) > span:not(.author-name) {
+        font-size: 10px; 
+    }
+}
+
+
+
+/* ---------------------------------------------------- */
+/* 1. ESTILOS PARA POSICIONAR LAS FLECHAS ARRIBA Y A LOS LADOS (GLOBAL) */
+/* ---------------------------------------------------- */
+
+.cards-section {
+    position: relative; 
+}
+
+/* Posición de las flechas (Esta regla aplica a todos los tamaños por defecto) */
+.swiper-button-prev,
+.swiper-button-next {
+    /* Alineación vertical con el título: Ajusta 'top' si el 50px no es exacto */
+    top: 50px; 
+    transform: none; 
+    z-index: 10; 
+    /* Por defecto, se muestran (esto es lo que se aplica en móvil si no hay otra regla) */
+    display: block !important; 
+}
+
+/* Flecha Izquierda: Posición base */
+.swiper-button-prev {
+    left: 0px; 
+}
+
+/* Flecha Derecha: Posición base */
+.swiper-button-next {
+    right: 0px; 
+}
+
+/* ************************************************ */
+/* REGLAS PARA MÓVIL (max-width: 767px) */
+/* ************************************************ */
+@media (max-width: 767px) {
+    /* *** REGLA CLAVE: OCULTAR FLECHAS EN MÓVIL *** */
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none !important; 
+    }
+    
+    /* [Opcional] AJUSTE ESPECÍFICO PARA MÓVIL: Mueve las flechas un poco hacia adentro (ya no tiene efecto al estar ocultas) */
+    /* .swiper-button-prev {
+        left: 10px; 
+    }
+    .swiper-button-next {
+        right: 10px; 
+    } */
+}
+
+/* ************************************************ */
+/* OCULTAR FLECHAS EN TABLET Y PC (A partir de 768px) */
+/* ************************************************ */
+@media (min-width: 768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none !important; /* ¡Mantiene la ocultación en Tablet/PC! */
+    }
+}
+
+
+/* ---------------------------------------------------- */
+/* 2. ESTILOS DE ANULACIÓN DEL SLIDER (Mantenidos para evitar el corte) */
+/* ---------------------------------------------------- */
+
+/* Anula estilos de Flexbox/Grid que fuerzan un salto de línea */
+.cards-wrapper .swiper-wrapper {
+    flex-wrap: nowrap !important;
+}
+
+/* Asegura que el ancho sea manejado por Swiper de manera general */
+.cards-wrapper .swiper-slide {
+    width: auto !important;
+    flex-shrink: 0;
+    /* Añade padding interno para separación */
+    padding-left: 10px !important; 
+    padding-right: 10px !important; 
+}
+
+
+/* Asegura que Swiper controle el ancho de las slides en desktop (para 4 slides y 15px spaceBetween) */
+@media (min-width: 1200px) {
+    .swiper.cards-wrapper .swiper-slide.col-3 {
+        /* Fórmula: (100% - 45px) / 4 */
+        width: calc( (100% - 45px) / 4 ) !important; 
+        flex-shrink: 0 !important; 
+        box-sizing: border-box !important; 
+    }
+}
