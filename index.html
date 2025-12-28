@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es-ES">
 
 
@@ -43,13 +43,12 @@
     <link rel="stylesheet" href="img/image-slider/swiper-bundle.min.css" />
 
     <script type="text/javascript" src="js/main.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/mega-menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/Prueba.css" />
     <link rel="shortcut icon" href="img/Logo/favicon.svg" />
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@12.0.3/swiper-bundle.min.css" />
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../unpkg.com/swiper%4012.0.3/swiper-bundle.min.css" />
+
 </head>
 
 <body class="default-device bodyclass">
@@ -65,7 +64,7 @@
             <div class="mobile-top-wrapper">
                 <ul class="navbar-list level-0-mobile"></ul>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarLevel0Collapse" aria-controls="navbarLevel0Collapse"
+                    data-bs-target="#navbarLevel0Collapse" aria-controls="navbarLevel0Collapse" aria-expanded=false
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <span class="navbar-toggler-bar"></span>
@@ -81,98 +80,136 @@
             <div class="navbar-left">
                 <ul class="navbar-list level-0">
                     <li class="navbar-list-item">
-                        <a href="index.html" class="navbar-link is-overview"
-
+                        <a href="index.html" class="navbar-link is-overview" data-toggle="" data-target="#collapseLeft5"
+                            aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'home')"> Inicio </a>
                     </li>
 
                     <li class="navbar-list-item">
-                        <a href="lang_es/aboutus.html" class="navbar-link is-overview"
-
+                        <a href="lang_es/aboutus.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Nosotros')"> Nosotros </a>
                     </li>
-                    <li class="navbar-list-item dropdown">
-                        <a href="##" class="navbar-link has-children collapsed"
-                            onclick="EMEAL.EVENTS.trackNavbar(0,'Services')"> Servicios</a>
-                            <div class="mega-menu">
-                              <div class="container-fluid">
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <ul class="navbar-list level-1">
-                                      <li class="navbar-list-item">
-                                        <a href="lang_es/bpo.html" class="navbar-link has-children" onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')">
-                                          <strong>Business Process Outsourcing (BPO)</strong>
-                                        </a>
-                                        <ul class="navbar-list level-2">
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/it-Infrastructure.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Tecnologías de la Información (TI)</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/finance.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Finanzas</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/contact-center.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Contact Center</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/supply-chain.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Supply Chain</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/human-resources.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'RH')">Recursos Humanos</a>
-                                          </li>
-                                        </ul>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <ul class="navbar-list level-1">
-                                      <li class="navbar-list-item">
-                                        <a href="lang_es/digital-transformation.html" class="navbar-link has-children" onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')">
-                                          <strong>Transformación Digital (TD)</strong>
-                                        </a>
-                                        <ul class="navbar-list level-2">
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/ia-bot.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'InteligenciaArtificial')">IA-BOT</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/workflow-automation.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">Automatización de Flujos de Trabajo</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/clm.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">Contract Life Cycle Management</a>
-                                          </li>
-                                          <li class="navbar-list-item">
-                                            <a href="lang_es/compliance.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'Compliance')">Compliance</a>
-                                          </li>
-                                        </ul>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
                     <li class="navbar-list-item">
-                        <a href="lang_es/Industries.html" class="navbar-link is-overview"
-
+                        <a href="##" class="navbar-link has-children collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLeft1" aria-controls="collapseLeft1" role=button
+                            aria-expanded=false onclick="EMEAL.EVENTS.trackNavbar(0,'Services')"> Servicios</a>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="collapse" id="collapseLeft1">
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <ul class="navbar-list level-1">
+                                                    <li class="navbar-list-item">
+                                                        <a href="lang_es/bpo.html"
+                                                            class="navbar-link has-children collapsed"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseSubLeft0"
+                                                            aria-controls="collapseSubLeft0" role=button
+                                                            aria-expanded=false
+                                                            onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')"> Business
+                                                            Process Outsourcing (BPO) </a>
+                                                        <ul class="navbar-list level-2 collapse" id="collapseSubLeft0">
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/it-Infrastructure.html"
+                                                                    class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Tecnologías
+                                                                    de la Información (TI)</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/finance.html" class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Finanzas</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/contact-center.html"
+                                                                    class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Contact
+                                                                    Center</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/supply-chain.html" class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Supply
+                                                                    Chain</a>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/human-resources.html"
+                                                                    class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'RH')">Recursos
+                                                                    Humanos</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <ul class="navbar-list level-1">
+                                                    <li class="navbar-list-item">
+                                                        <a href="lang_es/digital-transformation.html"
+                                                            class="navbar-link has-children collapsed"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseSubLeft1"
+                                                            aria-controls="collapseSubLeft1" role=button
+                                                            aria-expanded=false
+                                                            onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')"> Transformación
+                                                            Digital (TD) </a>
+                                                        <ul class="navbar-list level-2 collapse" id="collapseSubLeft1">
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/ia-bot.html" class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'InteligenciaArtificial')">
+                                                                    IA-BOT</a>
+                                                                <div class="featured-col"></div>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/workflow-automation.html"
+                                                                    class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">
+                                                                    Automatización de Flujos de Trabajo</a>
+                                                                <div class="featured-col"></div>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/clm.html" class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">
+                                                                    Contract Life Cycle Management</a>
+                                                                <div class="featured-col"></div>
+                                                            </li>
+                                                            <li class="navbar-list-item">
+                                                                <a href="lang_es/compliance.html" class="navbar-link"
+                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Compliance')">
+                                                                    Compliance</a>
+                                                                <div class="featured-col"></div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="lang_es/Industries.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Industrias')"> Industrias </a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="lang_es/talents.html" class="navbar-link is-overview"
-
+                        <a href="lang_es/talents.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Talento')"> Talento</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="lang_es/success-stories.html" class="navbar-link is-overview"
-
+                        <a href="lang_es/success-stories.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Éxitos')"> Éxitos</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="lang_es/blog.html" class="navbar-link is-overview"
-
+                        <a href="lang_es/blog.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'blogs')"> Blog</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="lang_es/contact.html" class="navbar-link is-overview"
-
+                        <a href="lang_es/contact.html" class="navbar-link is-overview" data-toggle=""
+                            data-target="#collapseLeft5" aria-controls="collapseLeft5" role=button aria-expanded=false
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Contacto')"> Contacto </a>
                     </li>
                 </ul>
@@ -182,7 +219,7 @@
                     <li class="navbar-list-item footer-link l-header-ed23__country">
                         <a href="javascript:void(0)"
                             class="navbar-link has-icon text-hidden has-children is-search collapsed"
-                            data-bs-toggle="collapse" data-bs-target="#collapseRight0"
+                            data-bs-toggle="collapse" data-bs-target="#collapseRight0" role=button aria-expanded=false
                             aria-controls="collapseRight0">
                             <img class="navbar-link-icon" src="img/icons/search.svg" alt="Search" aria-hidden="true" />
                             <span class="navbar-link-text">Search</span>
@@ -484,7 +521,6 @@
                                                 más</a>
                                         </div>
                                     </div>
-.
                                 </div>
                             </div>
                         </div>
@@ -1274,8 +1310,7 @@
         </section>
         <!-- Fin de la Sección “Formulario de contacto” -->
     </main>
-    <script src="https://unpkg.com/swiper@12.0.3/swiper-bundle.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../unpkg.com/swiper%4012.0.3/swiper-bundle.min.js"></script>
 </body>
 <footer class="footer">
     <div class="container-fluid">
@@ -1283,7 +1318,7 @@
             <div class="col-lg-12 col-xl-9">
                 <div class="row mb-lg-4">
                     <div class="col d-lg-flex align-items-xl-start">
-                        <img class="footer-logo me-lg-4" src="img/Logo/LogoNovatium.svg" alt="Novatium logo" />
+                        <img class="footer-logo mr-lg-4" src="img/Logo/LogoNovatium.svg" alt="Novatium logo" />
                     </div>
                 </div>
             </div>
@@ -1366,7 +1401,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xl-3 text-end l-header-ed23__country hover">
+            <div class="col-xl-3 text-right l-header-ed23__country hover">
                 <a href="#top" class="footer-link"> Back To Top <img src="img/icons/arrow-up-white.svg"
                         aria-hidden="true" class="icon" />
                 </a>
@@ -1383,7 +1418,8 @@
 <script src="img/image-slider/slider.js"></script>
 
 <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" src="//js.hs-scripts.com/144027721.js"></script>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer "igtybtignhmfgbvgnhiojhgygfui4515414ui.js"></script>
 <!-- End of HubSpot Embed Code -->
 
 
