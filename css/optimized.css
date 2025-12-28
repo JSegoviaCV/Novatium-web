@@ -7669,27 +7669,92 @@ section[id] {
     position: relative;
 }
 
-@media screen and (min-width: 1365px) {
-    .navbar-list-item {
-        position: relative;
-    }
+.navbar-list-item.dropdown:hover .mega-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
 
-    .navbar-list-item:hover > .container-fluid {
-        display: block;
-    }
+.mega-menu {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 100%;
+    background-color: #18163c;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1050;
+}
 
-    .navbar-list-item > .container-fluid {
-        position: absolute;
-        display: none;
-        background-color: #18163C;
-        padding: 2rem;
-        width: 40rem;
-        left: -10rem;
-        border-radius: 0 0 0.5rem 0.5rem;
-        z-index: 1050;
-    }
+.mega-menu .title {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-    .navbar-list-item > .container-fluid .collapse {
-        display: block !important;
-    }
+.mega-menu .list-unstyled a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+.mega-menu .list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+.col-megamenu {
+    padding: 0 15px;
+}
+
+/* Mega Menu Styles */
+.navbar-list-item.dropdown {
+    position: relative;
+}
+
+.mega-menu {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: #18163c;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1050;
+}
+
+.navbar-list-item.dropdown:hover .mega-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mega-menu .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mega-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mega-menu a:hover {
+    text-decoration: underline;
+}
+
+.mega-menu .navbar-list {
+    padding-left: 0;
+    list-style: none;
 }

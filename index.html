@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es-ES">
 
 
@@ -92,103 +92,65 @@
 
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Nosotros')"> Nosotros </a>
                     </li>
-                    <li class="navbar-list-item">
-                        <a href="##" class="navbar-link has-children collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapseLeft1" aria-controls="collapseLeft1"
+                    <li class="navbar-list-item dropdown">
+                        <a href="##" class="navbar-link has-children collapsed"
                             onclick="EMEAL.EVENTS.trackNavbar(0,'Services')"> Servicios</a>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="collapse" id="collapseLeft1">
-                                        <div class="row">
-                                            <div class="col-xl-4">
-                                                <ul class="navbar-list level-1">
-                                                    <li class="navbar-list-item">
-                                                        <a href="lang_es/bpo.html"
-                                                            class="navbar-link has-children collapsed"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSubLeft0"
-                                                            aria-controls="collapseSubLeft0"
-
-                                                            onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')"> Business
-                                                            Process Outsourcing (BPO) </a>
-                                                        <ul class="navbar-list level-2 collapse" id="collapseSubLeft0">
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/it-Infrastructure.html"
-                                                                    class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Tecnologías
-                                                                    de la Información (TI)</a>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/finance.html" class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Finanzas</a>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/contact-center.html"
-                                                                    class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Contact
-                                                                    Center</a>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/supply-chain.html" class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Supply
-                                                                    Chain</a>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/human-resources.html"
-                                                                    class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'RH')">Recursos
-                                                                    Humanos</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xl-4">
-                                                <ul class="navbar-list level-1">
-                                                    <li class="navbar-list-item">
-                                                        <a href="lang_es/digital-transformation.html"
-                                                            class="navbar-link has-children collapsed"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSubLeft1"
-                                                            aria-controls="collapseSubLeft1"
-
-                                                            onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')"> Transformación
-                                                            Digital (TD) </a>
-                                                        <ul class="navbar-list level-2 collapse" id="collapseSubLeft1">
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/ia-bot.html" class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'InteligenciaArtificial')">
-                                                                    IA-BOT</a>
-                                                                <div class="featured-col"></div>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/workflow-automation.html"
-                                                                    class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">
-                                                                    Automatización de Flujos de Trabajo</a>
-                                                                <div class="featured-col"></div>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/clm.html" class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">
-                                                                    Contract Life Cycle Management</a>
-                                                                <div class="featured-col"></div>
-                                                            </li>
-                                                            <li class="navbar-list-item">
-                                                                <a href="lang_es/compliance.html" class="navbar-link"
-                                                                    onclick="EMEAL.EVENTS.trackNavbar(2,'Compliance')">
-                                                                    Compliance</a>
-                                                                <div class="featured-col"></div>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="mega-menu">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <ul class="navbar-list level-1">
+                                      <li class="navbar-list-item">
+                                        <a href="lang_es/bpo.html" class="navbar-link has-children" onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')">
+                                          <strong>Business Process Outsourcing (BPO)</strong>
+                                        </a>
+                                        <ul class="navbar-list level-2">
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/it-Infrastructure.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Tecnologías de la Información (TI)</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/finance.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'TI')">Finanzas</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/contact-center.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Contact Center</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/supply-chain.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'Cliente')">Supply Chain</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/human-resources.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'RH')">Recursos Humanos</a>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <ul class="navbar-list level-1">
+                                      <li class="navbar-list-item">
+                                        <a href="lang_es/digital-transformation.html" class="navbar-link has-children" onclick="EMEAL.EVENTS.trackNavbar(1,'BPO')">
+                                          <strong>Transformación Digital (TD)</strong>
+                                        </a>
+                                        <ul class="navbar-list level-2">
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/ia-bot.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'InteligenciaArtificial')">IA-BOT</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/workflow-automation.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">Automatización de Flujos de Trabajo</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/clm.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'clm')">Contract Life Cycle Management</a>
+                                          </li>
+                                          <li class="navbar-list-item">
+                                            <a href="lang_es/compliance.html" class="navbar-link" onclick="EMEAL.EVENTS.trackNavbar(2,'Compliance')">Compliance</a>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
-                        </div>
-                    </li>
+                          </li>
                     <li class="navbar-list-item">
                         <a href="lang_es/Industries.html" class="navbar-link is-overview"
 
@@ -523,6 +485,7 @@
                                                 más</a>
                                         </div>
                                     </div>
+.
                                 </div>
                             </div>
                         </div>
