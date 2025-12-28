@@ -7668,3 +7668,28 @@ section[id] {
     margin: 0 auto;
     position: relative;
 }
+
+@media screen and (min-width: 1365px) {
+    .navbar-list-item {
+        position: relative;
+    }
+
+    .navbar-list-item:hover > .container-fluid {
+        display: block;
+    }
+
+    .navbar-list-item > .container-fluid {
+        position: absolute;
+        display: none;
+        background-color: #18163C;
+        padding: 2rem;
+        width: 40rem;
+        left: -10rem;
+        border-radius: 0 0 0.5rem 0.5rem;
+        z-index: 1050;
+    }
+
+    .navbar-list-item > .container-fluid .collapse {
+        display: block !important;
+    }
+}
