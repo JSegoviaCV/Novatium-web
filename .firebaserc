@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "modus-agencia",
+    "modus-agency": "modus-agency",
+    "yes": "novatium-landing",
+    "y": "intimate-call"
+  },
+  "targets": {},
+  "etags": {}
+}
