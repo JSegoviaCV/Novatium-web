@@ -7249,13 +7249,6 @@ screen and (-ms-high-contrast:active) {
     }
 }
 
-input {
-    transition: all .3s ease-in-out;
-    border: 1px solid #979797;
-    border-radius: 1px;
-    background-color: #f6f8fd
-}
-
 input:focus {
     border-color: #191466;
     box-shadow: none
@@ -7437,26 +7430,6 @@ form .form-heading {
 
 .breadcrumb-item.active {
     color: #6c757d
-}
-
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .5rem 1.3rem;
-    font-size: .875rem;
-    line-height: 1.5;
-    border-radius: 3rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -10887,13 +10860,6 @@ img1 {
     border-top-right-radius: 3rem
 }
 
-.card.is-next-cta {
-    text-decoration: none;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 325px
-}
-
 @media (max-width: 575.98px) {
     .card.is-next-cta {
         min-height: 200px;
@@ -10987,17 +10953,6 @@ img1 {
     .card.is-next-cta.has-rounded-corner.is-rounded-bottom-left .overlay {
         border-bottom-left-radius: 1.5rem
     }
-}
-
-
-
-
-
-.card.is-next-cta1 {
-    text-decoration: none;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 325px
 }
 
 @media (max-width: 575.98px) {
@@ -19225,22 +19180,6 @@ input[type=search].form-control+.input-group-appendx:after {
     }
 }
 
-.btn {
-    font-family: Roboto-Regular;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    position: relative;
-    color: #191466;
-    border-radius: 40px;
-    background-color: #15c9f7;
-    padding: .5rem 3rem .5rem 1.7rem;
-    text-align: left;
-    overflow: hidden;
-    border-width: 0;
-    text-decoration: none
-}
-
 @media (min-width: 576px) {
     .btn {
         padding: .5rem 3rem .5rem 2.2rem
@@ -23894,14 +23833,7 @@ section.no-padding-top {
     .wysiwyg-content {
         width: 90%
     }
-}
-
-input {
-    transition: all .3s ease-in-out;
-    border: 1px solid #979797;
-    border-radius: 1px;
-    background-color: #f6f8fd
-}
+}input { \n    transition: all .3s ease-in-out;\n    border: 1px solid #979797;\n    border-radius: 1px;\n    background-color: #f6f8fd;\n}
 
 input:focus {
     border-color: #191466;
@@ -23964,26 +23896,6 @@ form.search button {
     position: absolute;
     width: calc(100% - 48px);
     left: 24px
-}
-
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .5rem 1.3rem;
-    font-size: .875rem;
-    line-height: 1.5;
-    border-radius: 3rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -24772,14 +24684,7 @@ select.form-control[size] {
 
 .card.card-bg-image.has-rounded-corner.is-rounded-top-right .has-bg-pattern:after {
     border-top-right-radius: 3rem
-}
-
-.card.is-next-cta {
-    text-decoration: none;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 325px
-}
+}.card.is-next-cta { \n    text-decoration: none;\n    background-size: cover;\n    background-position: 50%;\n    min-height: 325px;\n}
 
 @media (max-width: 575.98px) {
     .card.is-next-cta {
@@ -24864,18 +24769,7 @@ select.form-control[size] {
     .card.is-next-cta.has-rounded-corner.is-rounded-bottom-right .overlay {
         border-bottom-right-radius: 1.5rem
     }
-}
-
-
-
-
-
-.card.is-next-cta1 {
-    text-decoration: none;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 325px
-}
+}.card.is-next-cta1 { \n    text-decoration: none;\n    background-size: cover;\n    background-position: 50%;\n    min-height: 325px;\n}
 
 @media (max-width: 575.98px) {
     .card.is-next-cta1 {
@@ -28543,23 +28437,7 @@ input[type=search].form-control+.input-group-appendx:after {
 .bg-primary .social-icon.icon-tiktok:focus,
 .bg-primary .social-icon.icon-tiktok:hover {
     background-image: url(../img/icons/tiktok.svg)
-}
-
-.btn {
-    font-family: Roboto-Regular;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    position: relative;
-    color: #191466;
-    border-radius: 40px;
-    background-color: #15c9f7;
-    padding: .5rem 3rem .5rem 1.7rem;
-    text-align: left;
-    overflow: hidden;
-    border-width: 0;
-    text-decoration: none
-}
+}.btn { \n    display: inline-block;\n    font-weight: 700;\n    color: #191466;\n    text-align: left;\n    vertical-align: middle;\n    cursor: pointer;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    background-color: #15c9f7;\n    border: 1px solid transparent;\n    padding: .5rem 3rem .5rem 1.7rem;\n    font-size: 18px;\n    line-height: 30px;\n    border-radius: 40px;\n    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;\n    font-family: Roboto-Regular;\n    position: relative;\n    overflow: hidden;\n    border-width: 0;\n    text-decoration: none;\n}
 
 @media (min-width: 576px) {
     .btn {
