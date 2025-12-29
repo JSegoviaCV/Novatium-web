@@ -22317,6 +22317,111 @@ h3.diferente {
    ESTILOS ADAPTADOS DE STYLE1.CSS (MEGA MENÚ Y COMPONENTES ESPECÍFICOS)
    ========================================================================== */
 
+/* --- ESTILOS PARA TARJETAS DE BLOG (Recuperados de style1.css) --- */
+
+.search-results .cards-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Contenedor principal de la tarjeta */
+.card.card-search-result {
+    display: flex;
+    flex-direction: row; /* Diseño horizontal por defecto */
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0;
+    margin-bottom: 2rem;
+    min-height: auto;
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card.card-search-result:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedor de la imagen */
+.card.card-search-result .card-img-wrapper {
+    flex: 0 0 400px; /* Ancho fijo para la imagen en desktop */
+    position: relative;
+    height: auto;
+    min-height: 100px;
+}
+
+.card.card-search-result .card-img-wrapper .card-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Cuerpo de la tarjeta */
+.card.card-search-result .card-body {
+    flex: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card.card-search-result .card-body .tag {
+    color: #0072bc;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.card.card-search-result .card-body .card-title {
+    color: #0072bc;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.card.card-search-result .card-body a {
+    text-decoration: none;
+}
+
+.card.card-search-result .card-body .meta-data p {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.card.card-search-result .card-body .filtered-tags .article-tag {
+    background: #0072bc;
+    color: #fff;
+    font-size: .875rem;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+/* Adaptación para móviles (Stack vertical) */
+@media (max-width: 767.98px) {
+    .card.card-search-result {
+        flex-direction: column;
+    }
+    
+    .card.card-search-result .card-img-wrapper {
+        flex: 0 0 200px;
+        width: 100%;
+    }
+
+    .card.card-search-result .card-body .meta-data {
+        display: none; /* Oculta descripción larga en móviles según style1.css */
+    }
+}
+
+
+
+
+
+
+
+
 
 
 

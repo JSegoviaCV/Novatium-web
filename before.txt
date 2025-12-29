@@ -1,0 +1,387 @@
+   [1]LogoNovatium
+
+   (BUTTON)
+
+     * [2]Inicio
+     * [3]Nosotros
+     * [4]Servicios
+          + [5]Business Process Outsourcing (BPO)
+               o [6]Tecnologías de la Información (TI)
+               o [7]Finanzas
+               o [8]Contact Center
+               o [9]Supply Chain
+               o [10]Recursos Humanos
+          + [11]Transformación Digital (TD)
+               o [12]IA-BOT
+               o [13]Automatización de Flujos de Trabajo
+               o [14]Contract Life Cycle Management
+               o [15]Compliance
+     * [16]Industrias
+     * [17]Talento
+     * [18]Éxitos
+     * [19]Blog
+     * [20]Contacto
+
+     * [21]Search Search
+       ____________________
+       (BUTTON)   Search
+     * [22]LogoNovatium
+     * [23]Contactanos
+
+   Logo de la Empresa
+
+BUSINESS PROCESS OUTSOURCING
+
+Procesos Eficientes, Negocio Optimizado
+
+   Optimiza tu negocio externalizando funciones clave, desde servicios de
+   TI y atención al cliente hasta recursos humanos. Nuestro BPO asegura
+   calidad, seguridad de datos y tecnología avanzada, impulsando la
+   experiencia del usuario y logrando procesos más eficientes y
+   sustentables bajo un sólido marco de gobernanza corporativa.
+   [24]Leer más
+
+RECURSOS HUMANOS
+
+Reclutamiento de Talento con Confianza
+
+   Delegue la búsqueda y selección de profesionales en todas las
+   especialidades y niveles jerárquicos. Garantizamos un servicio de
+   Recursos Humanos de alta calidad y excelencia, basado en la confianza,
+   la responsabilidad y la comunicación constante para asegurar el
+   compliance con sus expectativas.
+   [25]Leer más
+
+TECNOLOGÍA DE LA INFORMACIÓN
+
+Liderazgo en Servicios de Novatium IT
+
+   Con más de 15 años de liderazgo, Novatium ofrece un expertise integral
+   en servicios de TI e Infraestructura, desde Mesa de Ayuda nacional y
+   Monitoreo hasta Testing de Software, Administración de Plataformas y
+   soluciones de Cloud, manteniendo siempre los más altos estándares de
+   calidad y cumplimiento.
+   [26]Leer más
+
+CONTACT CENTER
+
+Soluciones de Atención Total
+
+   Nuestro Contact Center gestiona, automatiza y resuelve las incidencias
+   de clientes con una tasa de efectividad superior al 95%. Ofrecemos un
+   servicio omni-canal integral (WhatsApp, redes, email) y nos enfocamos
+   en la mejora continua y la fidelización del usuario a través de un
+   seguimiento post-venta detallado.
+   [27]Leer más
+
+FINANZAS
+
+Gestión y Análisis Estratégico
+
+   Externalice sus operaciones financieras clave (Contabilidad, Cuentas a
+   Pagar y Cobrar, Tesorería) para lograr precisión y eficiencia.
+   Ofrecemos servicios de Planificación y Análisis Financiero (FP&A) para
+   interpretar datos, establecer marcos operativos robustos y ejecutar
+   acciones estratégicas, optimizando la gestión de sus recursos.
+   [28]Leer más
+
+SUPPLY CHAIN
+
+Optimización de Compras Estratégicas
+
+   Externalice y optimice sus procesos de adquisición, desde el
+   procesamiento de pedidos hasta la administración de contratos
+   (licitaciones, pliegos). Nuestro enfoque agrega valor en Supply Chain
+   al comprender complejidades, generando mayores eficiencias, ahorros
+   significativos y la mejor solución para cada desafío.
+   [29]Leer más
+   (BUTTON) Clickable Image (BUTTON) Clickable Image
+
+   imagen representada con el logo
+
+   Quienes somos
+
+Construimos equipos de trabajo
+
+   Nos especializamos en Outsourcing y Automatización de procesos de
+   negocio. Formamos equipos de alto rendimiento, tanto off-shore como
+   near-shore. Mejoramos los modelos operativos mediante tecnología,
+   soluciones digitales, mejores practicas y capacitación continua.
+   Nuestro objetivo es evolucionar la cadena de valor de nuestros
+   clientes.
+   Imagen de la cantidad de empleados, años de experiencia de la empresa,
+   clientes [30]Leer más
+
+   Servicios
+
+Business Process Outsourcing
+
+   Brindamos servicios de consultoría externa globalmente.
+   [31]Leer más
+
+   Servicios
+
+Transformación Digital
+
+   Implementamos soluciones innovadoras, aportamos tecnología a través de
+   la inteligencia artificial, nuestros centros de servicios de IT tienen
+   cobertura 24/7.
+   [32]Leer más
+
+   Servicios
+
+Especialistas en Talento Humano
+
+   Nuestras soluciones de búsqueda y selección de personal permiten
+   tercerizar el reclutamiento de profesionales para su proyecto, en todas
+   las especialidades y niveles jerárquicos.
+   [33]Leer más
+
+AUTOMATIZA TUS PROCESOS CON NUESTRO BOT IMPULSA TU NEGOCIO
+
+   Así como la naturaleza encuentra su equilibrio, automatiza tus procesos
+   hacia la eficiencia.
+
+   [34]Descubre nuestro BOT
+
+AGREGAMOS VALOR EN NUESTROS CLIENTES
+
+FLEXIBILIDAD
+
+   Enfoque personalizado y flexible que se adapta a tus necesidades.
+
+COMPETITIVOS
+
+   Precio competitivo para que reduzcas tus costos.
+
+TECNOLOGÍA
+
+   Colaboramos en tu transformación digital automatizando procesos.
+
+SERVICIO SOSTENIDO
+
+   Brindamos un sólido servicio 24/7 evaluando la satisfacción del
+   usuario.
+
+   Industrias
+   [35]
+
+Novatium impulsa la innovación en industrias clave
+
+   [36]Casos de éxito
+
+ÚLTIMAS PUBLICACIONES DE BLOG
+
+   [37]
+
+   Blog
+
+   Cómo la Inteligencia Artificial “consume tokens”.
+   Foto del Autor
+   María Emilia Orlando Business Development Manager | NOVATIUM
+   [38]
+
+   Blog
+
+   Del ticket a la experiencia: el CAU como motor de productividad
+   Foto del Autor
+   María Emilia Orlando Business Development Manager | NOVATIUM
+   [39]
+
+   Blog
+
+   Transformación digital sin promesas exageradas: cómo hacer que la
+   automatización funcione en serio
+   Foto del Autor
+   María Emilia Orlando Business Development Manager | NOVATIUM
+   [40]
+
+   Blog
+
+   Servicios compartidos en finanzas: ¿por qué el futuro de tu back-office
+   ya empezó?
+   Foto del Autor
+   María Emilia Orlando Business Development Manager | NOVATIUM
+
+Seleccionados por
+
+   [41]
+
+Service Desk Institute
+
+Certificación
+
+   [42]
+
+Organización Internacional
+de Estandarización (ISO)
+
+Certificación
+
+Preguntas Frecuentes (FAQs)
+
+   (BUTTON) ¿En qué área geográfica proveen servicios? +
+
+   Novatium tiene su presencia principal y sus sedes en España y
+   Argentina.
+     * Latinoamérica
+     * Diferentes partes del mundo
+
+   Esto les permite ofrecer soporte y soluciones de Outsourcing de TI y
+   Finanzas a clientes a nivel global.
+   (BUTTON) ¿Qué es el Outsourcing de TI/Finanzas y cómo me beneficia? +
+
+   Es la delegación de la gestión y ejecución de procesos tecnológicos o
+   financieros a un proveedor externo (Novatium). Le beneficia al reducir
+   costos, aumentar la eficiencia, permitirle el foco en su core business
+   y acceder a talento especializado sin necesidad de contratar personal
+   internamente.
+   (BUTTON) ¿Qué procesos financieros puedo externalizar? +
+
+   Cubrimos los procesos clave de la gestión financiera, que incluyen
+   Contabilidad General, la administración de Cuentas por Pagar/Cobrar, el
+   procesamiento de Nóminas (Payroll), la elaboración de Reporting
+   Financiero, y el Control de Gestión.
+   (BUTTON) ¿Qué tipos de servicios ofrecen en Outsourcing de TI? +
+
+   Ofrecemos una cobertura integral en Gestión de Infraestructura
+   (incluyendo servidores y redes), Soporte Técnico a través de nuestro
+   Service Desk, Desarrollo y Mantenimiento de Software, y servicios de
+   Ciberseguridad gestionada
+   .
+   (BUTTON) ¿El Outsourcing implica la desvinculación total de mi equipo
+   interno? +
+
+   Ofrecemos flexibilidad a través de modelos de cosourcing (donde
+   nuestros equipos colaboran estrechamente con los suyos) o de
+   outsourcing total (servicio completo), adaptándonos siempre a sus
+   necesidades específicas.
+   (BUTTON) ¿Cuánto tiempo tarda el proceso de implementación
+   (Onboarding)? +
+
+   El tiempo de implementación varía según la complejidad y el alcance del
+   servicio. Por ejemplo, la puesta en marcha de un Service Desk puede
+   tomar de 4 a 6 semanas, mientras que una externalización financiera
+   completa podría requerir entre 2 y 4 meses. En todos los casos,
+   utilizamos una planificación por fases para garantizar una transición
+   fluida y sin interrupciones.
+   (BUTTON) ¿Cómo se garantiza la calidad del servicio? +
+
+   La calidad del servicio está garantizada mediante la firma de un
+   Acuerdo de Nivel de Servicio (SLA) que detalla métricas clave (como
+   tiempo de respuesta, disponibilidad y exactitud). Además, aseguramos el
+   cumplimiento a través de auditorías periódicas e informes de
+   rendimiento detallados.
+   (BUTTON) ¿Qué medidas de ciberseguridad se aplican al entorno de TI
+   externalizado? +
+
+   Nuestros servicios abarcan la vigilancia continua 24/7, la
+   implementación de copias de seguridad regulares, la gestión proactiva
+   de parches (patch management), la protección avanzada contra malware y
+   la activación de Planes Robustos de Recuperación ante Desastres (DRP).
+   (BUTTON) ¿Qué mecanismos de comunicación y gestión de proyectos
+   utilizan? +
+
+   Empleamos una metodología de gestión robusta, utilizando plataformas
+   basadas en estándares como ITIL
+   y metodologías Ágiles. Además, toda nuestra operación está alineada con
+   los principios de calidad de la Norma IRAM-ISO 9001:2015. Designamos un
+   Gerente de Cuenta único como su contacto principal para garantizar una
+   coordinación fluida y un entendimiento consistente.
+   (BUTTON) ¿Cómo se maneja la seguridad de mi información confidencial? +
+
+   La seguridad y confidencialidad son nuestra máxima prioridad.
+   Reforzamos este compromiso mediante la firma de Acuerdos de
+   Confidencialidad (NDA) estrictos. A nivel tecnológico, implementamos
+   protocolos de cifrado, un estricto control de accesos restringidos
+   (basado en el mínimo privilegio) y garantizamos el cumplimiento de
+   normativas clave como el GDPR y las regulaciones de protección de datos
+   locales aplicables.
+
+Envianos tu consulta
+
+   Servizi in ambito Consumer Packaged Goods
+
+   Novatium logo
+     * NAVEGACIÓN
+
+     * [43]Nosotros
+     * [44]Servicios
+     * [45]Industrias
+     * [46]Talento
+     * [47]Éxitos
+     * [48]Blog
+     * [49]Contacto
+
+     * UBICACIONES
+
+     * Argentina
+     * España
+
+   © 2005 - NOVATIUM. All Rights Reserved.
+     __________________________________________________________________
+
+     * [50]Política de Privacidad
+     * [51]Política de Cookies
+
+   [52]Back To Top [arrow-up-white.svg]
+
+References
+
+   Visible links:
+   1. http://localhost:8080/index.html
+   2. http://localhost:8080/index.html
+   3. http://localhost:8080/lang_es/aboutus.html
+   4. http://localhost:8080/##
+   5. http://localhost:8080/lang_es/bpo.html
+   6. http://localhost:8080/lang_es/it-Infrastructure.html
+   7. http://localhost:8080/lang_es/finance.html
+   8. http://localhost:8080/lang_es/contact-center.html
+   9. http://localhost:8080/lang_es/supply-chain.html
+  10. http://localhost:8080/lang_es/human-resources.html
+  11. http://localhost:8080/lang_es/digital-transformation.html
+  12. http://localhost:8080/lang_es/ia-bot.html
+  13. http://localhost:8080/lang_es/workflow-automation.html
+  14. http://localhost:8080/lang_es/clm.html
+  15. http://localhost:8080/lang_es/compliance.html
+  16. http://localhost:8080/lang_es/Industries.html
+  17. http://localhost:8080/lang_es/talents.html
+  18. http://localhost:8080/lang_es/success-stories.html
+  19. http://localhost:8080/lang_es/blog.html
+  20. http://localhost:8080/lang_es/contact.html
+  21. javascript:void(0)
+  22. http://localhost:8080/lang_en/index.html
+  23. http://localhost:8080/lang_es/contactus.html
+  24. http://localhost:8080/lang_es/bpo.html
+  25. http://localhost:8080/lang_es/human-resources.html
+  26. http://localhost:8080/lang_es/it-Infrastructure.html
+  27. http://localhost:8080/lang_es/contact-center.html
+  28. http://localhost:8080/lang_es/finance.html
+  29. http://localhost:8080/lang_es/supply-chain.html
+  30. http://localhost:8080/lang_es/aboutus.html
+  31. http://localhost:8080/lang_es/bpo.html
+  32. http://localhost:8080/lang_es/digital-transformation.html
+  33. http://localhost:8080/lang_es/human-resources.html
+  34. http://localhost:8080/lang_es/ia-bot.html
+  35. http://localhost:8080/lang_es/success-stories.html
+  36. http://localhost:8080/lang_es/success-stories.html
+  37. http://localhost:8080/lang_es/Blog/07-09-25.html
+  38. http://localhost:8080/lang_es/Blog/06-09-25.html
+  39. http://localhost:8080/lang_es/Blog/05-09-25.html
+  40. http://localhost:8080/lang_es/Blog/04-09-25.html
+  41. https://www.sdila.com/
+  42. https://www.iso.org/es/home
+  43. http://localhost:8080/lang_es/aboutus.html
+  44. http://localhost:8080/lang_es/services.html
+  45. http://localhost:8080/lang_es/Industries.html
+  46. http://localhost:8080/lang_es/talents.html
+  47. http://localhost:8080/lang_es/success-stories.html
+  48. http://localhost:8080/lang_es/blog.html
+  49. http://localhost:8080/lang_es/contact.html
+  50. http://localhost:8080/lang_es/privacy.html
+  51. http://localhost:8080/lang_es/cookies.html
+  52. http://localhost:8080/#top
+
+   Hidden links:
+  54. https://www.linkedin.com/company/novatium-argentina-arl-s-a-/
+  55. https://www.facebook.com/profile.php?id=100063789106166
