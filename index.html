@@ -40,7 +40,7 @@
 
     <link rel="stylesheet" href="img/image-slider/slider.css" />
     <link rel="stylesheet" href="img/image-slider/css2.css" />
-    <link rel="stylesheet" href="img/image-slider/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -48,6 +48,8 @@
     <link rel="shortcut icon" href="img/Logo/favicon.svg" />
 
     <link rel="stylesheet" href="../unpkg.com/swiper%4012.0.3/swiper-bundle.min.css" />
+
+
 
 </head>
 
@@ -59,7 +61,7 @@
     <nav class="navbar navbar-expand-xl">
         <div class="nav-wrapper d-flex justify-content-between">
             <a href="index.html" aria-label="LogoNovatium">
-                <img class="navbar-brand" src="img/Logo/LogoNovatium.svg" alt="LogoNovatium" />
+                <img class="navbar-brand" src="img/Logo/LogoNovatium.svg" alt="LogoNovatium" fetchpriority="high" />
             </a>
             <div class="mobile-top-wrapper">
                 <ul class="navbar-list level-0-mobile"></ul>
@@ -278,126 +280,119 @@
     <div id="preloader">
         <div class="preloader-content">
 
-            <img src="img/Logo/favicon01.gif" alt="Logo de la Empresa" class="preloader-logo-static">
+            <img src="img/Logo/favicon01.gif" alt="Logo de la Empresa" class="preloader-logo-static"
+                fetchpriority="high">
 
             <p class="welcome-message"></p>
         </div>
     </div>
     <script src="js/script.js"></script>
 
-    <!-- Comienzo del Encabezado o Titulo -->
     <div class="slider-container">
-        <!-- Slider List Items -->
         <div class="slider-wrapper swiper-wrapper">
+
             <div class="slider-item swiper-slide">
+                <picture>
+                    <source srcset="img/image-slider/images/img-01-movil.webp" media="(max-width: 480px)">
+                    <img src="img/image-slider/images/img-01.webp" class="slide-bg-img" alt="BPO" fetchpriority="high">
+                </picture>
                 <div class="slide-content">
                     <h1 class="slide-subtitle"> BUSINESS PROCESS OUTSOURCING </h1>
-
                     <h2 class="slide-title" style="color: #ffffff"> Procesos Eficientes, Negocio Optimizado</h2>
                     <p class="slide-description" style="color: #ffffff"> Optimiza tu negocio externalizando funciones
                         clave, desde servicios de TI y atención al cliente hasta recursos humanos. Nuestro BPO asegura
                         calidad, seguridad de datos y tecnología avanzada, impulsando la experiencia del usuario y
-                        logrando procesos más eficientes y sustentables bajo un sólido marco de gobernanza corporativa.
-                    </p>
-                    <a href="lang_es/bpo.html" class="slide-button">
-                        <span>Leer más</span>
-                    </a>
+                        logrando procesos más eficientes y sustentables bajo un sólido marco de gobernanza corporativa.</p>
+                    <a href="lang_es/bpo.html" class="slide-button"><span>Leer más</span></a>
                 </div>
             </div>
+
             <div class="slider-item swiper-slide">
+                <picture>
+                    <source srcset="img/image-slider/images/img-02-movil.webp" media="(max-width: 480px)">
+                    <img src="img/image-slider/images/img-02.webp" class="slide-bg-img" alt="Recursos Humanos">
+                </picture>
                 <div class="slide-content">
                     <h1 class="slide-subtitle"> RECURSOS HUMANOS </h1>
-
                     <h2 class="slide-title" style="color: #ffffff"> Reclutamiento de Talento con Confianza</h2>
                     <p class="slide-description" style="color: #ffffff"> Delegue la búsqueda y selección de
                         profesionales en todas las especialidades y niveles jerárquicos. Garantizamos un servicio de
                         Recursos Humanos de alta calidad y excelencia, basado en la confianza, la responsabilidad y la
                         comunicación constante para asegurar el compliance con sus expectativas.</p>
-                    <a href="lang_es/human-resources.html" class="slide-button">
-                        <span>Leer más</span>
-                    </a>
+                    <a href="lang_es/human-resources.html" class="slide-button"><span>Leer más</span></a>
                 </div>
             </div>
+
             <div class="slider-item swiper-slide">
+                <picture>
+                    <source srcset="img/image-slider/images/img-03-movil.webp" media="(max-width: 480px)">
+                    <img src="img/image-slider/images/img-03.webp" class="slide-bg-img" alt="TI">
+                </picture>
                 <div class="slide-content">
                     <h1 class="slide-subtitle"> TECNOLOGÍA DE LA INFORMACIÓN </h1>
-
-                    <h2 class="slide-title" style="color: #ffffff"> Liderazgo en Servicios de Novatium IT
-                    </h2>
+                    <h2 class="slide-title" style="color: #ffffff"> Liderazgo en Servicios de Novatium IT </h2>
                     <p class="slide-description" style="color: #ffffff"> Con más de 15 años de liderazgo, Novatium
                         ofrece un expertise integral en servicios de TI e Infraestructura, desde Mesa de Ayuda nacional
                         y Monitoreo hasta Testing de Software, Administración de Plataformas y soluciones de Cloud,
-                        manteniendo siempre los más altos estándares de calidad y cumplimiento. </p>
-                    <a href="lang_es/it-Infrastructure.html" class="slide-button">
-                        <span>Leer más</span>
-                    </a>
+                        manteniendo siempre los más altos estándares de calidad y cumplimiento.</p>
+                    <a href="lang_es/it-Infrastructure.html" class="slide-button"><span>Leer más</span></a>
                 </div>
             </div>
+
             <div class="slider-item swiper-slide">
+                <picture>
+                    <source srcset="img/image-slider/images/img-04-movil.webp" media="(max-width: 480px)">
+                    <img src="img/image-slider/images/img-04.webp" class="slide-bg-img slide-filter-dark"
+                        alt="Contact Center">
+                </picture>
                 <div class="slide-content">
                     <h1 class="slide-subtitle"> CONTACT CENTER </h1>
-
                     <h2 class="slide-title" style="color: #ffffff"> Soluciones de Atención Total</h2>
                     <p class="slide-description" style="color: #ffffff"> Nuestro Contact Center gestiona, automatiza y
                         resuelve las incidencias de clientes con una tasa de efectividad superior al 95%. Ofrecemos un
                         servicio omni-canal integral (WhatsApp, redes, email) y nos enfocamos en la mejora continua y la
-                        fidelización del usuario a través de un seguimiento post-venta detallado. </p>
-                    <a href="lang_es/contact-center.html" class="slide-button">
-                        <span>Leer más</span>
-                    </a>
+                        fidelización del usuario a través de un seguimiento post-venta detallado.
+                    </p>
+                    <a href="lang_es/contact-center.html" class="slide-button"><span>Leer más</span></a>
                 </div>
             </div>
+
             <div class="slider-item swiper-slide">
+                <picture>
+                    <source srcset="img/image-slider/images/img-05-movil.webp" media="(max-width: 480px)">
+                    <img src="img/image-slider/images/img-05.webp" class="slide-bg-img" alt="Finanzas">
+                </picture>
                 <div class="slide-content">
                     <h1 class="slide-subtitle"> FINANZAS </h1>
-
                     <h2 class="slide-title" style="color: #ffffff"> Gestión y Análisis Estratégico </h2>
                     <p class="slide-description" style="color: #eeecec"> Externalice sus operaciones financieras clave
                         (Contabilidad, Cuentas a Pagar y Cobrar, Tesorería) para lograr precisión y eficiencia.
                         Ofrecemos servicios de Planificación y Análisis Financiero (FP&A) para interpretar datos,
                         establecer marcos operativos robustos y ejecutar acciones estratégicas, optimizando la gestión
                         de sus recursos.</p>
-                    <a href="lang_es/finance.html" class="slide-button">
-                        <span>Leer más</span>
-                    </a>
+                    <a href="lang_es/finance.html" class="slide-button"><span>Leer más</span></a>
                 </div>
             </div>
+
             <div class="slider-item swiper-slide">
+                <picture>
+                    <source srcset="img/image-slider/images/img-06-movil.webp" media="(max-width: 480px)">
+                    <img src="img/image-slider/images/img-06.webp" class="slide-bg-img" alt="Supply Chain">
+                </picture>
                 <div class="slide-content">
                     <h1 class="slide-subtitle"> SUPPLY CHAIN </h1>
-
-                    <h2 class="slide-title" style="color: #ffffff"> Optimización de Compras Estratégicas
-                    </h2>
+                    <h2 class="slide-title" style="color: #ffffff"> Optimización de Compras Estratégicas </h2>
                     <p class="slide-description" style="color: #ffffff"> Externalice y optimice sus procesos de
                         adquisición, desde el procesamiento de pedidos hasta la administración de contratos
                         (licitaciones, pliegos). Nuestro enfoque agrega valor en Supply Chain al comprender
                         complejidades, generando mayores eficiencias, ahorros significativos y la mejor solución para
-                        cada desafío. </p>
-                    <a href="lang_es/supply-chain.html" class="slide-button">
-                        <span>Leer más</span>
-                    </a>
+                        cada desafío.</p>
+                    <a href="lang_es/supply-chain.html" class="slide-button"><span>Leer más</span></a>
                 </div>
             </div>
-        </div>
-        <!-- Slider Pagination -->
-        <div class="slider-controls">
-            <div class="slider-pagination">
 
-            </div>
-        </div>
-        <!-- Slider Navigations (Prev/Next) -->
-        <div class="slider-navigations">
-            <button id="slide-prev" class="material-symbols-rounded">
-                <img src="img/image-slider/images/arrow_left_alt.svg" alt="Clickable Image"
-                    style="width: 40px; height: 25px" />
-            </button>
-            <button id="slide-next" class="material-symbols-rounded">
-                <img src="img/image-slider/images/arrow_right_alt.svg" alt="Clickable Image"
-                    style="width: 40px; height: 25px" />
-            </button>
         </div>
     </div>
-    <!-- Fin del Encabezado o Titulo -->
 
     <main class="">
 
@@ -1051,7 +1046,7 @@
         <!-- Fin de la Sección “Certificación SDI E ISO” -->
 
         <!-- Comienzo de la Sección “Preguntas Frecuentes (FAQ)” -->
-        <link rel="stylesheet" type="text/css" href="contactform/estilos.html">
+       
         <section class="text-image-half" style="background-color: #ffffff;">
             <h2 class="text-center" style="color:#0063f7">Preguntas Frecuentes (FAQs)</h2><br>
             <div class="container-fluid">
@@ -1277,7 +1272,7 @@
         <!-- Fin de la Sección “Preguntas Frecuentes (FAQ)” -->
 
         <!-- Comienzo de la Sección “Formulario de contacto” -->
-        <link rel="stylesheet" type="text/css" href="contactform/estilos.html">
+       
         <section class="text-image-half" style="background-color: #191466">
             <h2 class="text-center" style="color: #ffffff"> Envianos tu consulta </h2>
             <br>
@@ -1310,7 +1305,7 @@
         </section>
         <!-- Fin de la Sección “Formulario de contacto” -->
     </main>
-    <script src="../unpkg.com/swiper%4012.0.3/swiper-bundle.min.js"></script>
+
 </body>
 <footer class="footer">
     <div class="container-fluid">
@@ -1386,9 +1381,9 @@
             </div>
         </div>
         <div class="col-xl-9">
-              <p class="footer-text">© 2005 - <span id="current-year"></span> NOVATIUM. All Rights Reserved.</p>
+            <p class="footer-text">© 2005 - <span id="current-year"></span> NOVATIUM. All Rights Reserved.</p>
         </div>
-      
+
         <hr />
         <div class="row">
             <div class="col-xl-9">
@@ -1414,7 +1409,7 @@
 
 
 <!-- Linking Swiper Script -->
-<script src="img/image-slider/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="img/image-slider/slider.js"></script>
 
 <!-- Start of HubSpot Embed Code -->
