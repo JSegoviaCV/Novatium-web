@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@playwright/test": "^1.57.0"
-  },
-  "devDependencies": {
-    "purgecss": "^7.0.2"
-  }
-}

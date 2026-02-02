@@ -1,4 +1,37 @@
 /*! For license information please see main.js.LICENSE.txt */
+
+document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new Swiper('.swiper.cards-wrapper', {
+        // ACTIVAR BUCLE INFINITO
+        loop: true, 
+        
+        // Configuraciones base para móvil
+        slidesPerView: 1,
+        spaceBetween: 10,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 15,
+            },
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 5, 
+            }
+        },
+    });
+});
+
 // 1. Espera a que todo el contenido HTML se cargue
     document.addEventListener('DOMContentLoaded', (event) => {
         
