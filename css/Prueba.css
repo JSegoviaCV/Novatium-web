@@ -279,7 +279,7 @@ para que la alineación a la derecha funcione correctamente. */
 
 
 /* Asegura que Swiper controle el ancho de las slides en desktop (para 4 slides y 15px spaceBetween) */
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
     .swiper.cards-wrapper .swiper-slide.col-3 {
         /* Fórmula: (100% - 45px) / 4 */
         width: calc( (100% - 45px) / 4 ) !important; 
